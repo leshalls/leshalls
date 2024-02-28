@@ -62,5 +62,6 @@
         }
     }
     else {
+        sleep(3);
         header('Location: connexion-utilisateur.html?err=99');
     }
